@@ -1,9 +1,9 @@
 # NaoPago
 
-[![Número de Linguagens](https://img.shields.io/github/languages/count/mvmomente/NaoPago)]
-[![Linguagem Principal](https://img.shields.io/github/languages/top/mvmomente/NaoPago)]
-[![Tamanho do Repositório](https://img.shields.io/github/repo-size/mvmomente/NaoPago)]
-[![Último Commit](https://img.shields.io/github/last-commit/mvmomente/NaoPago)]
+[![Número de Linguagens](https://img.shields.io/github/languages/count/mvmomente/Estudando-JPA)]
+[![Linguagem Principal](https://img.shields.io/github/languages/top/mvmomente/Estudando-JPA)]
+[![Tamanho do Repositório](https://img.shields.io/github/repo-size/mvmomente/Estudando-JPA)]
+[![Último Commit](https://img.shields.io/github/last-commit/mvmomente/Estudando-JPA)]
 
 ## API simples de criação de usuario incluindo em banco de dados
 
