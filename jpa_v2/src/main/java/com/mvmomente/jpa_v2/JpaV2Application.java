@@ -1,13 +1,13 @@
-package com.mvmomente.jpaestudo;
+package com.mvmomente.jpa_v2;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class JpaestudoApplication {
+public class JpaV2Application {
 
     public static void main(String[] args) {
-        SpringApplication.run(JpaestudoApplication.class, args);
+        SpringApplication.run(JpaV2Application.class, args);
     }
 
 }

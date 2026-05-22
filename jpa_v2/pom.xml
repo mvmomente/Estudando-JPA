@@ -9,10 +9,10 @@
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
     <groupId>com.mvmomente</groupId>
-    <artifactId>jpaestudo</artifactId>
+    <artifactId>jpa_v2</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <name>jpaestudo</name>
-    <description>jpaestudo</description>
+    <name>jpa_v2</name>
+    <description>jpa_v2</description>
     <url/>
     <licenses>
         <license/>

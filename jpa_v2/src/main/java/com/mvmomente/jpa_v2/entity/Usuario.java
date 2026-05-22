@@ -1,27 +1,25 @@
-package com.mvmomente.jpaestudo.entity;
+package com.mvmomente.jpa_v2.entity;
 
 import jakarta.persistence.*;
 
-import java.io.Serializable;
 import java.util.UUID;
 
 @Entity
-@Table(name = "tb_user")
-public class User implements Serializable {
-    private static final long serialVersionUID = 1L;
+@Table(name = "tb_usuario")
+public class Usuario {
 
     @Id
     @GeneratedValue(strategy = GenerationType.UUID)
     private UUID id;
 
     @Column(nullable = false)
-    private String name;
+    private String nome;
 
     @Column(nullable = false, unique = true)
     private String email;
 
     @Column(nullable = false)
-    private String password;
+    private String senha;
 
     public UUID getId() {
         return id;
@@ -31,12 +29,12 @@ public class User implements Serializable {
         this.id = id;
     }
 
-    public String getName() {
-        return name;
+    public String getNome() {
+        return nome;
     }
 
-    public void setName(String name) {
-        this.name = name;
+    public void setNome(String nome) {
+        this.nome = nome;
     }
 
     public String getEmail() {
@@ -47,11 +45,11 @@ public class User implements Serializable {
         this.email = email;
     }
 
-    public String getPassword() {
-        return password;
+    public String getSenha() {
+        return senha;
     }
 
-    public void setPassword(String password) {
-        this.password = password;
+    public void setSenha(String senha) {
+        this.senha = senha;
     }
 }
