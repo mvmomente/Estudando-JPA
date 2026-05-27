@@ -1,4 +1,4 @@
-# NaoPago
+# Estudando JPA
 
 [![Número de Linguagens](https://img.shields.io/github/languages/count/mvmomente/Estudando-JPA)]
 [![Linguagem Principal](https://img.shields.io/github/languages/top/mvmomente/Estudando-JPA)]
