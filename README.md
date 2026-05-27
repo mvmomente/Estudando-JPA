@@ -5,39 +5,66 @@
 [![Tamanho do Repositório](https://img.shields.io/github/repo-size/mvmomente/Estudando-JPA)]
 [![Último Commit](https://img.shields.io/github/last-commit/mvmomente/Estudando-JPA)]
 
-## API simples de criação de usuario incluindo em banco de dados
+## Sobre o projeto
 
-Bem-vindo(a)! 👋 Este projeto é um pequeno estudo em Spring Boot para entender a criação de uma API REST integrada com Banco de Dados.
+Estudando JPA é uma aplicação backend desenvolvida com Java e Spring Boot com foco em aprendizado de persistência de dados utilizando Spring Data JPA e MySQL.
 
-A ideia principal é aprender a estrutura da dependendicia JPA, sendo projetado em camadas `Controller`, `Service`, `Repository`, `Entity` e `DTO`.
+O projeto foi criado para praticar conceitos fundamentais de APIs REST, organização em camadas e integração com banco de dados relacional.
 
-## O que este projeto faz
+## Tecnologias utilizadas
 
-* Cria contas com nome, senha e email
-* Utiliza JPA integrado com MySql
+* Java
+* Spring Boot
+* Spring Data JPA
+* MySQL
+* Maven
 
-## Como funciona
+## Funcionalidades
 
-* `UserController` define os endpoints HTTP
-* `UserService` contém a lógica de negócio
-* `UserRepository` armazena as contas em banco de dados
-* `User` representa a entidade do usuario
-* `RegisterDto` é usado para entrada de dados
+* Cadastro de usuários
+* Persistência de dados com JPA
+* Integração com banco MySQL
+* Estruturação em arquitetura em camadas
 
-## Objetivo do projeto
+## Arquitetura do projeto
 
-Este repositório é um exercício de aprendizado para explorar:
+A aplicação foi organizada utilizando separação de responsabilidades:
+
+* `Controller` — gerenciamento dos endpoints HTTP
+* `Service` — regras de negócio
+* `Repository` — comunicação com banco de dados
+* `Entity` — modelagem das entidades
+* `DTO` — transferência de dados entre requisição e resposta
+
+## Estrutura principal
+
+* `UserController` — definição dos endpoints REST
+* `UserService` — lógica da aplicação
+* `UserRepository` — persistência de dados com JPA
+* `User` — entidade de usuário
+* `RegisterDto` — entrada de dados da requisição
+
+## Objetivos de aprendizado
+
+Este projeto foi desenvolvido para aprofundar conhecimentos em:
 
 * Spring Boot MVC
+* Desenvolvimento de APIs REST
+* Spring Data JPA
+* Integração com banco de dados
 * Injeção de dependências
-* Endpoints REST simples
-* Modelos de dados com `record` e classes Java
-* Salvar dados em um banco
+* Organização de aplicações backend
+* Modelagem de entidades em Java
 
-## Próximos passos
+## Próximas melhorias
 
-* Evoluir para um banco de dados robusto
+* Implementação de validações
+* Tratamento global de exceções
+* Criptografia de senhas
+* Autenticação com Spring Security
+* Documentação com Swagger/OpenAPI
+* Padronização das respostas JSON
 
-## Obrigado
+## Autor
 
-Este projeto é um rabisco de aprendizado com Spring focado em JPA.
+Desenvolvido por Marcos Vinícius Momenté.
